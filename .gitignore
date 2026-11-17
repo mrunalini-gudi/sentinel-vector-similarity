@@ -1,0 +1,25 @@
+# Secrets: never commit keys or passwords
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+sentinelenv/
+
+# Data files
+*.npy
+*.npz
+*.csv
+*.parquet
+*.zip
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
